@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+}
+
+@media screen and (min-width:768px) {
+    #carouselExampleSlidesOnly {
+        padding: 120px;
+        padding-top: 80px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    #carouselExampleSlidesOnly {
+        padding: 20px;
+        padding-top: 80px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    #carouselExampleSlidesOnly {
+        padding: 40px;
+        padding-top: 80px;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    #carouselExampleSlidesOnly {
+        padding: 120px;
+        padding-top: 80px;
+    }
+
+    img {
+        height: 500px;
+        width: 100%;
+    }
+
+}
+
+a {
+    font-family: "bree serif";
+}
+
+.luxury-main {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "bree serif";
+}
+
+.contact {
+    background-color: #733d3d;
+    color: #ffffff;
+
+}
+
+.luxury-heading {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "bree serif";
+}
+
+@media screen and (min-width: 576px) {
+    .luxury-heading {
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        font-family: "bree serif";
+
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .luxury-heading {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-weight: bold;
+        font-family: "bree serif";
+
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .luxury-heading {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-weight: bold;
+        font-family: "bree serif";
+
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .luxury-heading {
+        font-size: 30px;
+        padding-bottom: 20px;
+        font-weight: bold;
+        font-family: "bree serif";
+
+    }
+
+}
+
+.detais-container1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "roboto";
+    font-weight: bold;
+
+}
+
+
+
+.detais-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+.detais-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rings-container {
+    display: flex;
+}
+
+@media screen and (max-width: 576px) {
+    .rings-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.rings {
+    height: 200px;
+    margin: 5px;
+    min-width: 100%;
+}
+
+.card-1 {
+    margin: 10px;
+}
+
+.ring-name {
+    font-family: "roboto";
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 12px;
+
+}
+
+@media screen and (max-width: 576px) {
+    .ring-name {
+        font-size: 10px;
+        font-family: "roboto";
+        padding-left: 10px;
+
+    }
+}
+
+.tablist-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navs-button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Category-heading {
+    font-family: "serif bree";
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.Services-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+
+.Services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Services1 {
+    display: flex;
+    background-color: #2e1c28;
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+    .Services1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #2e1c28;
+        width: 100%;
+        color: white;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .Services1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2e1c28;
+        width: 100%;
+        color: white;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .Services {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.service-image {
+    height: 420px;
+    width: 420px;
+    border-radius: 20px;
+}
+
+.design-image {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .design-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .design-image {
+        min-width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service-image {
+        height: 320px;
+        width: 320px;
+    }
+}
+
+.details-container {
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .details-container {
+        font-size: 10px;
+    }
+}
+
+.custom-heading {
+    font-family: "serif bree";
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-left: 10px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .custom-heading {
+        font-size: 20px;
+    }
+}
+
+.custom-paragraph {
+    font-family: "serif bree";
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.read-button {
+    background-color: #59212e;
+    border-width: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 20px;
+    font-family: "serif bree";
+    font-weight: bold;
+}
+
+.read-button1 {
+    background-color: #faf450;
+    border-width: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 20px;
+    font-family: "serif bree";
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+
+.our-serviesheading {
+    font-family: "serif bree";
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.image-container {
+    width: 100%;
+    padding: 40px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: -1;
+    }
+}
+
+.on-insta-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .on-insta-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .on-insta-container {
+        display: flex;
+        padding: 20px;
+    }
+}
+
+.on-insta-container {
+    display: flex;
+
+}
+
+.insta-image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bride-image {
+    height: 80vh;
+    width: 35%;
+}
+
+@media screen and (max-width: 768px) {
+    .bride-image {
+        height: 100vh;
+        width: 100%;
+    }
+}
+
+.middle-images {
+    height: 40vh;
+}
+
+
+.custom-heading1 {
+    padding-top: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "serif bree";
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width:576px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.about-container1 {
+    display: flex;
+
+}
+
+@media screen and (max-width: 768px) {
+    .about-container1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.about-image {
+    height: 90vh;
+
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .about-image {
+        padding: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .about-image {
+        padding: 10px;
+        width: 60%;
+        height: 80vh;
+    }
+}
+
+.contact-container {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f08bee;
+    font-family: "bree serif";
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.first-container {
+    width: 50%;
+    font-family: "bree serif";
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .first-container {
+        width: 100%;
+    }
+}
+
+.second-container {
+    width: 25%;
+    font-family: "bree serif";
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .second-container {
+        width: 100%;
+    }
+}
+
+
+.third-container {
+    width: 25%;
+    font-family: "bree serif";
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .third-container {
+        width: 100%;
+    }
+}
+
+.my-name {
+    color: white;
+    font-family: "serif bree";
+    text-align: center;
+}
+
+.my-name-container {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
